@@ -6,7 +6,7 @@ class main{
   if(n<=100000 && q<=100000){
    for(i=n+1;i<q;i++){
     if(i%2!=0)
-     System.outr.println(i+" ");
+     System.out.println(i+" ");
    }
   }
  }
