@@ -3,7 +3,8 @@ class main{
    Scanner s=new Scanner(System.in);
    String a=s.nextLine();
    StringBuilder sb=new StringBuilder(a);
-   System.out.println(sb.reverse());
+   if(sb.length()<=10000)
+     System.out.println(sb.reverse());
    
  }
 }
