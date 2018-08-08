@@ -10,9 +10,9 @@ class humz{
       n=n/10;
      }
      if(temp==sum)
-       System.out.println("Palindrome");
+       System.out.println("yes");
      else
-        System.out.println("Not palindrome");
+        System.out.println("no");
      
   }
 }
